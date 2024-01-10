@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DefuckSwift}",
+            "name": "Debug DefuckSwift",
+            "program": "${workspaceFolder:DefuckSwift}/.build/debug/DefuckSwift",
+            "preLaunchTask": "swift: Build Debug DefuckSwift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DefuckSwift}",
+            "name": "Release DefuckSwift",
+            "program": "${workspaceFolder:DefuckSwift}/.build/release/DefuckSwift",
+            "preLaunchTask": "swift: Build Release DefuckSwift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DefuckSwift}",
+            "name": "Debug DefuckCLI",
+            "program": "${workspaceFolder:DefuckSwift}/.build/debug/DefuckCLI",
+            "preLaunchTask": "swift: Build Debug DefuckCLI"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:DefuckSwift}",
+            "name": "Release DefuckCLI",
+            "program": "${workspaceFolder:DefuckSwift}/.build/release/DefuckCLI",
+            "preLaunchTask": "swift: Build Release DefuckCLI"
+        }
+    ]
+}
